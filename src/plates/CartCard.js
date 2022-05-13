@@ -20,8 +20,8 @@ const CartCard = () => {
 
     return (
         <>
-            <Box className="border">
-                <Row className='px-3 py-2' style={{margin: "0px", background: "#f2f2f2"}}>
+            <Box className="border" >
+                <Row className='px-3 py-2 sm-none' style={{ margin: "0px", background: "#f2f2f2"}}>
                     <Col xs={6} lg={6}>
                         <div style={{ fontWeight: 500, fontFamily: '"Montserrat", sans-serif' }}>Your Order Details</div>
                     </Col>
@@ -51,6 +51,10 @@ const CartCard = () => {
                                 <div>
                                     <span style={{ fontSize: 12, fontWeight: 500, fontFamily: '"Montserrat", sans-serif' }} className='me-2'>Size :</span>
                                     <span style={{ fontSize: 12, fontWeight: 600, fontFamily: '"Montserrat", sans-serif' }} >M</span>
+                                </div>
+                                <div>
+                                    <span style={{ fontSize: 12, fontWeight: 500, fontFamily: '"Montserrat", sans-serif' }} className='me-2'>1 x</span>
+                                    <span style={{ fontSize: 12, fontWeight: 600, fontFamily: '"Montserrat", sans-serif' }} >£45.00</span>
                                 </div>
                                 <div style={{ fontSize: 13, fontWeight: 500, fontFamily: '"Montserrat", sans-serif', color: '#43d5b0' }}>
                                     In Stock

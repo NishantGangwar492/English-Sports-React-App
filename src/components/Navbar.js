@@ -63,7 +63,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 
 const pages = ['Cricket', 'Football', 'Boxing'];
-const settings = ['Profile', 'Login', 'Register', 'Checkout'];
+const settings = ['Profile', 'Login', 'Register', 'Checkout', 'Cart'];
 
 const ResponsiveAppBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
